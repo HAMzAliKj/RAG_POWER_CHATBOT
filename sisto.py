@@ -66,7 +66,7 @@ docs = RAG()
 retriever = TFIDFRetriever.from_documents(docs) if docs else None
 
 llm = ChatGroq(
-    groq_api_key="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",
+    groq_api_key="PASTE YOUR API KEY",
     model_name="llama-3.2-3b-preview"
 )
 
